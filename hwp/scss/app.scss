@@ -54,20 +54,26 @@ h1 {
 	background-image: url(../img/stripe-background.png);
 	background-repeat: repeat;
 	background-color: black;
-	height: 560px;
+	height: auto;
+	padding-bottom: 30px;
 }
 .stripes.small {
-	height: 350px;
+	height: auto;
+	padding-bottom: 10px;
 }
 .stripes.internal {
-	height: 110px;
+	height: auto;
+}
+.stripes.internal.small {
+	height: auto;
 }
 
 /* IMAGE AND FORM SECTION OF HOME PAGE */
 .dark-gray {
 	background-color: #231f20;
-	height: 561px;
+	height: auto;
 	border-top: 4px solid #e19c2a;
+	padding-bottom: 30px;
 }
 .header-1 {
 	font-size: 24px;
@@ -190,4 +196,28 @@ a.selected {
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
-	
+
+
+@media only screen and (max-width: 60em) {
+	li.grid1 {
+	background-position: center;
+	padding-bottom: 14px;
+}
+li.grid2 {
+	background-position: center;
+	padding-bottom: 14px;
+}
+li.grid3 {
+	background-position: center;
+	padding-bottom: 14px;
+}
+.grid-text {
+	color: #231f20;
+	font-size: 13px;
+	padding-top: 276px;
+	padding-right: 32%;
+	padding-left: 31%;
+	text-align: center;
+	line-height: 16px;
+}
+}
