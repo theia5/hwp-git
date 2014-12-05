@@ -198,26 +198,46 @@ a.selected {
 }
 
 
-@media only screen and (max-width: 60em) {
-	li.grid1 {
+@media only screen and (max-width: 64em) {
+li.grid1 {
 	background-position: center;
-	padding-bottom: 14px;
+	margin-bottom: 25px;
 }
 li.grid2 {
 	background-position: center;
-	padding-bottom: 14px;
+	margin-bottom: 25px;
 }
 li.grid3 {
 	background-position: center;
-	padding-bottom: 14px;
+	margin-bottom: 25px;
 }
 .grid-text {
 	color: #231f20;
 	font-size: 13px;
 	padding-top: 276px;
-	padding-right: 32%;
-	padding-left: 31%;
 	text-align: center;
 	line-height: 16px;
 }
+.home-rightsidebar {
+	margin: 0 28px 20px 28px;
 }
+.small-main {
+	margin-bottom: 40px;
+}
+.home-rightsidebar.contact {
+	font-family: tahoma, sans-serif;
+	line-height: 23px;
+	margin-top: 30px;
+}
+.home-rightsidebar {
+	margin-top: 30px;
+}
+}
+@media only screen and (max-width: 24em) { .grid-text {padding-left: 6%; padding-right: 7%;}}
+@media only screen and (min-width: 24.01em) and (max-width: 27em) { .grid-text {padding-left: 13%; padding-right: 13%;}}
+@media only screen and (min-width: 27.01em) and (max-width: 29em) { .grid-text {padding-left: 17%; padding-right: 17%;}}
+@media only screen and (min-width: 29.01em) and (max-width: 32.68em) { .grid-text {padding-left: 21%; padding-right: 21%;}}
+@media only screen and (min-width: 32.69em) and (max-width: 36em) { .grid-text {padding-left: 24%; padding-right: 24%;}}
+@media only screen and (min-width: 36.01em) and (max-width: 40em) { .grid-text {padding-left: 27%; padding-right: 27%;}}
+@media only screen and (min-width: 40.01em) and (max-width: 49em) { .grid-text {padding-left: 31%; padding-right: 31%;}}
+@media only screen and (min-width: 49.01em) and (max-width: 64em) { .grid-text {padding-left: 35%; padding-right: 35%;}}
