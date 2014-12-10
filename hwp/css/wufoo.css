@@ -1,4 +1,8 @@
-.name-home {
-	margin-top: 0px;
-	padding-top: 0px;
+.wufoo .info h2 {
+	margin: 0px;
+	padding: 0px;
+}
+.wufoo label.desc {
+	margin: 0px;
+	padding: 0px;
 }
